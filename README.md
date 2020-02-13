@@ -1,10 +1,29 @@
-# libppm
+# PPM Rust Library
 
-1) fork the project
+## Members
 
-2) push an existing repository from the command line
+* ROUVEL Pauline
+* HICHRI Mouna
+* CHAMPAUD Alexandre
 
-```
-git remote add origin git@github.com:USERNAME/libppm.git
-git push -u origin master
-```
+## Launch Project
+
+To use our library, **cargo** is required.
+
+Compile the library by executing the command :
+
+`cargo build`
+
+You can then find the library in the `target/` folder
+
+## Structs
+
+### Pixel
+
+To create a pixel, use the struct like so :
+
+`let p = Pixel{r:255, g:255, b:255}`
+
+
+
+### Image
